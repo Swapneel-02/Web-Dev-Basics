@@ -1,25 +1,35 @@
 body{
     font-family:'Monsterrat';
-}
-#title{
-   background-color: #ff4c68;
-   color: white;
-   height: 550px;
+    text-align: center;
 }
 .container-fluid{
     padding: 3% 15% 7%;
 }
+
 h1{
     font-family: 'Monsterrat', sans-serif;
     font-weight: bold;
     font-size: 3.5rem;
-    line-height: 1.2;
+    line-height: 1.2; 
 }
 h2{
     font-family: 'Monsterrat-Bold ';
     font-size: 2.5rem;
     line-height: 1.5;
 }
+h3{
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+p{
+  color: grey;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+    height: 550px;
+    text-align: left;
+ }
 .navbar{
     padding-bottom: 2.5rem;
     font-family: 'Ubuntu';
@@ -52,15 +62,7 @@ h2{
     position: relative;
 }
 .feature-box{
-    text-align: center;
     padding:4.5%;
-}
-h3{
-    font-family: 'Ubuntu';
-    font-weight: bold;
-}
-p{
-  color: grey;
 }
 .icon{
     color: #ef8172;
@@ -71,7 +73,6 @@ p{
 }
 #testimonials{
     padding: 7% 15%;
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
@@ -82,7 +83,6 @@ p{
 }
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 2%;
 }
 .press-logo{
@@ -97,7 +97,6 @@ p{
 }
 #pricing{
     padding: 10px;
-    text-align: center;
 }
 .pricing-column{
     padding: 3% 2%;
@@ -110,4 +109,21 @@ p{
       position: static;
       transform: rotate(0);
    }
+}
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    height: 300px;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: 'Monsterrat-Bold';
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+#footer{
+   padding: 7% 15%;
+}
+.socials{
+    margin: 20px 8px;
 }
